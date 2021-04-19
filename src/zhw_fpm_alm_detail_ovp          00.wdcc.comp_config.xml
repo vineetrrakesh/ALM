@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OVP_COMPONENT" ConfId="ZHW_FPM_ALM_DETAIL_OVP" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OVP_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <TITLE Transl="true"/>
+     <EDIT_MODE/>
+     <SCROLLING_MODE/>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+       <MAXIMUM_MESSAGES_SIZE>0</MAXIMUM_MESSAGES_SIZE>
+       <SHOW_MESSAGE_LOG/>
+      </Item>
+     </Node>
+     <Node Name="CONTENT_AREA" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID>PAGE_1</ID>
+       <TYPE>MAIN</TYPE>
+       <TITLE Transl="true">1</TITLE>
+       <DEFAULT>X</DEFAULT>
+       <EXPLANATION_TEXT Transl="true"/>
+       <EXPLANATION_DOCUMENT/>
+       <DLG_NAME/>
+       <DLG_BUTTON_SET>0</DLG_BUTTON_SET>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <ACTION_TYPE_PERS_DIALOG>0</ACTION_TYPE_PERS_DIALOG>
+       <ACTION_TYPE_DRAG_DROP_AB>0</ACTION_TYPE_DRAG_DROP_AB>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID>SECTION_1</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <STACKED/>
+           <ROWS>0</ROWS>
+           <COLUMN_ID>COLUMN_ID_1</COLUMN_ID>
+           <WIDTH>100</WIDTH>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_12F6543914EF1EDBA6FFC0E4FD25C6BF</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE/>
+           <CONFIG_ID>ZHW_ALM_FORM</CONFIG_ID>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <TITLE Transl="true">2</TITLE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_12F6543914EF1EDBA78DDC34AE980DE2</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INDEX>2</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE>T</TYPE>
+           <CONFIG_ID>ZHW_ALM_PFO</CONFIG_ID>
+           <TITLE Transl="true">7</TITLE>
+           <IMAGE>~Icon/FolderFileAlias</IMAGE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ID Final="5 ">SECTION_2</ID>
+         <INDEX>2</INDEX>
+         <LAYOUT_TYPE/>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED>X</STACKED>
+           <WIDTH>50</WIDTH>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_12F6543914EF1EDBA7B49FBA60699A3F</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>ZHW_ALM_ASSET</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>1</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">13</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE>~Icon/TechnicalSystem</IMAGE>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_12F6543914EF1EDBA7B4A223A2EF1A40</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>ZHW_ALM_LICENS</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>2</INDEX>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">12</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE>~Icon/MemberList</IMAGE>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">FPM_SAVE_1</ELEMENT_ID>
+           <TEXT Transl="true">8</TEXT>
+           <IMAGE>~Icon/Save</IMAGE>
+           <INDEX>1</INDEX>
+           <IMAGE_IS_DECORATIVE>X</IMAGE_IS_DECORATIVE>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">FPM_SAVE_1</ACTION_ID>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">FPM_CANCEL_1</ELEMENT_ID>
+           <TEXT Transl="true">9</TEXT>
+           <IMAGE>~Icon/Cancel</IMAGE>
+           <INDEX>2</INDEX>
+           <HAS_SEPARATOR>X</HAS_SEPARATOR>
+           <IMAGE_IS_DECORATIVE>X</IMAGE_IS_DECORATIVE>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">FPM_CANCEL_1</ACTION_ID>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">FPM_EDIT_1</ELEMENT_ID>
+           <TEXT Transl="true">10</TEXT>
+           <IMAGE>~Icon/Edit</IMAGE>
+           <INDEX>3</INDEX>
+           <HAS_SEPARATOR>X</HAS_SEPARATOR>
+           <IMAGE_IS_DECORATIVE>X</IMAGE_IS_DECORATIVE>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">FPM_EDIT_1</ACTION_ID>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PERSONALIZATION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="P_CONTENT_AREA" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="WIRE_MODEL" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSACTION/>
+       <Node Name="WIRE" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FPM_SAVE_1</ID>
+       <EVENT_ID>FPM_SAVE</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">FPM_CANCEL_1</ID>
+       <EVENT_ID>FPM_CANCEL</EVENT_ID>
+       <ACTION_TYPE>1</ACTION_TYPE>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">FPM_EDIT_1</ID>
+       <EVENT_ID>FPM_EDIT</EVENT_ID>
+       <ACTION_TYPE>1</ACTION_TYPE>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true"/>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="PAGE_SELECTOR" SimpleFormat="true"/>
+     <Node Name="AMC_BINDING" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

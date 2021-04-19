@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_POWL_UIBB" ConfId="ZHW_CC_POWL" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="POWL_UIBB" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <APPL_ID>ZHW_ALM_POWL</APPL_ID>
+     <ACTIVE_QUERY_NAME>ZHW_ALM_POWL_QUERY</ACTIVE_QUERY_NAME>
+     <REFRESH_ALLQ/>
+     <REFRESH_ONLOAD>X</REFRESH_ONLOAD>
+     <POWL_DELTA_RENDERING>X</POWL_DELTA_RENDERING>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

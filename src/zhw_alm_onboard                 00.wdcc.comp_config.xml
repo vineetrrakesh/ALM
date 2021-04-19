@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB_GL2" ConfId="ZHW_ALM_ONBOARD" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>ZHW_CL_ALM_ONBOARD_FORM_FEEDER</FEEDER>
+     <LAYOUT_TYPE>16/2</LAYOUT_TYPE>
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7BBE9E1C2A15E03</ID>
+       <TYPE/>
+       <EVENT_ID>CHANGE_PHOTO</EVENT_ID>
+       <EVENT_PARAMETERS/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EEBA7C372AEA61181E8</ID>
+       <TYPE/>
+       <EVENT_ID>CHANGE_PHOTO</EVENT_ID>
+       <EVENT_PARAMETERS/>
+      </Item>
+     </Node>
+     <Node Name="BUTTON" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EEBA7C372AEA61181E8</ID>
+       <TYPE>BU</TYPE>
+       <EXPLANATION_TEXT Transl="true"/>
+       <IMAGE>~Icon/SaveAsDraft</IMAGE>
+       <IMAGE_IS_DECORATIVE/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <CTXT_MENU_ID/>
+       <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ACTION_ID Final="5 ">FGL2_12F6543914EF1EEBA7C372AEA61181E8</ACTION_ID>
+         <INDEX>1</INDEX>
+         <HOTKEY/>
+         <IMAGE/>
+         <TEXT Transl="true"/>
+         <HAS_SEPARATOR/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="DROP_TARGET" SimpleFormat="true"/>
+     <Node Name="FORM_GROUP" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="POSITION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB797CB1</ID>
+       <START_ROW>1</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>1</END_ROW>
+       <END_COLUMN>G</END_COLUMN>
+       <LABEL_START_ROW>1</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>1</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB795CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB79BCB1</ID>
+       <START_ROW>2</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>2</END_ROW>
+       <END_COLUMN>G</END_COLUMN>
+       <LABEL_START_ROW>2</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>2</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB799CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB79FCB1</ID>
+       <START_ROW>6</START_ROW>
+       <START_COLUMN>K</START_COLUMN>
+       <END_ROW>6</END_ROW>
+       <END_COLUMN>M</END_COLUMN>
+       <LABEL_START_ROW>6</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>6</LABEL_END_ROW>
+       <LABEL_END_COLUMN>J</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB79DCB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB7A7CB1</ID>
+       <START_ROW>5</START_ROW>
+       <START_COLUMN>K</START_COLUMN>
+       <END_ROW>5</END_ROW>
+       <END_COLUMN>M</END_COLUMN>
+       <LABEL_START_ROW>5</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>5</LABEL_END_ROW>
+       <LABEL_END_COLUMN>J</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB7A5CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB7ABCB1</ID>
+       <START_ROW>4</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>4</END_ROW>
+       <END_COLUMN>G</END_COLUMN>
+       <LABEL_START_ROW>4</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>4</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB7A9CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB7B3CB1</ID>
+       <START_ROW>5</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>5</END_ROW>
+       <END_COLUMN>G</END_COLUMN>
+       <LABEL_START_ROW>5</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>5</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB7B1CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB7B7CB1</ID>
+       <START_ROW>6</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>6</END_ROW>
+       <END_COLUMN>G</END_COLUMN>
+       <LABEL_START_ROW>6</LABEL_START_ROW>
+       <LABEL_START_COLUMN>A</LABEL_START_COLUMN>
+       <LABEL_END_ROW>6</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB7B5CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB7BBCB1</ID>
+       <START_ROW>2</START_ROW>
+       <START_COLUMN>K</START_COLUMN>
+       <END_ROW>2</END_ROW>
+       <END_COLUMN>M</END_COLUMN>
+       <LABEL_START_ROW>2</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>2</LABEL_END_ROW>
+       <LABEL_END_COLUMN>J</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB7B9CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB7BFCB1</ID>
+       <START_ROW>3</START_ROW>
+       <START_COLUMN>K</START_COLUMN>
+       <END_ROW>3</END_ROW>
+       <END_COLUMN>L</END_COLUMN>
+       <LABEL_START_ROW>3</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>3</LABEL_END_ROW>
+       <LABEL_END_COLUMN>J</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB7BDCB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7B96BFDDB7C3CB1</ID>
+       <START_ROW>4</START_ROW>
+       <START_COLUMN>K</START_COLUMN>
+       <END_ROW>4</END_ROW>
+       <END_COLUMN>L</END_COLUMN>
+       <LABEL_START_ROW>4</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>4</LABEL_END_ROW>
+       <LABEL_END_COLUMN>J</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7B96BFDDB7C1CB1</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7BAA37A08ACBD59</ID>
+       <START_ROW>1</START_ROW>
+       <START_COLUMN>K</START_COLUMN>
+       <END_ROW>1</END_ROW>
+       <END_COLUMN>K</END_COLUMN>
+       <LABEL_START_ROW>1</LABEL_START_ROW>
+       <LABEL_START_COLUMN>I</LABEL_START_COLUMN>
+       <LABEL_END_ROW>1</LABEL_END_ROW>
+       <LABEL_END_COLUMN>J</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7BAA37A08AC9D59</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EDBA7BB431AEAC39DAA</ID>
+       <START_ROW>3</START_ROW>
+       <START_COLUMN>D</START_COLUMN>
+       <END_ROW>3</END_ROW>
+       <END_COLUMN>G</END_COLUMN>
+       <LABEL_START_ROW>3</LABEL_START_ROW>
+       <LABEL_START_COLUMN>B</LABEL_START_COLUMN>
+       <LABEL_END_ROW>3</LABEL_END_ROW>
+       <LABEL_END_COLUMN>C</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EDBA7BB431AEAC37DAA</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EEBA7C347E6335EA1CF</ID>
+       <START_ROW>6</START_ROW>
+       <START_COLUMN>N</START_COLUMN>
+       <END_ROW>6</END_ROW>
+       <END_COLUMN>O</END_COLUMN>
+       <LABEL_START_ROW>0</LABEL_START_ROW>
+       <LABEL_START_COLUMN/>
+       <LABEL_END_ROW>0</LABEL_END_ROW>
+       <LABEL_END_COLUMN/>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EEBA7C347E6335E81CF</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EEBA7C372AEA611A1E8</ID>
+       <START_ROW>6</START_ROW>
+       <START_COLUMN>P</START_COLUMN>
+       <END_ROW>6</END_ROW>
+       <END_COLUMN>P</END_COLUMN>
+       <LABEL_START_ROW/>
+       <LABEL_START_COLUMN/>
+       <LABEL_END_ROW/>
+       <LABEL_END_COLUMN/>
+       <FORM_ELEMENT_TYPE>BU</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EEBA7C372AEA61181E8</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000015" SimpleFormat="true">
+       <ID Final="5 ">_GENP_12F6543914EF1EEBA7D562F2E725A7B7</ID>
+       <START_ROW>1</START_ROW>
+       <START_COLUMN>N</START_COLUMN>
+       <END_ROW>5</END_ROW>
+       <END_COLUMN>P</END_COLUMN>
+       <LABEL_START_ROW>9</LABEL_START_ROW>
+       <LABEL_START_COLUMN>N</LABEL_START_COLUMN>
+       <LABEL_END_ROW>9</LABEL_END_ROW>
+       <LABEL_END_COLUMN>O</LABEL_END_COLUMN>
+       <FORM_ELEMENT_TYPE>SE</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_12F6543914EF1EEBA7D562F2E72587B7</FORM_ELEMENT_ID>
+      </Item>
+     </Node>
+     <Node Name="QUICKVIEW" SimpleFormat="true"/>
+     <Node Name="STANDARD_ELEMENT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB795CB1</ID>
+       <NAME>NAME_FIRST</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB799CB1</ID>
+       <NAME>NAME_LAST</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB79DCB1</ID>
+       <NAME>POSTL_COD1</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB7A5CB1</ID>
+       <NAME>SUB_CHANNEL</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true">3</LABEL_TEXT>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB7A9CB1</ID>
+       <NAME>STREET</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB7B1CB1</ID>
+       <NAME>DISTRICT</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB7B5CB1</ID>
+       <NAME>CITY</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB7B9CB1</ID>
+       <NAME>TEL_NO</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB7BDCB1</ID>
+       <NAME>TYPE</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7B96BFDDB7C1CB1</ID>
+       <NAME>BPKIND</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7BAA37A08AC9D59</ID>
+       <NAME>SEX</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EDBA7BB431AEAC37DAA</ID>
+       <NAME>CONUTRY</NAME>
+       <TYPE>IN</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true">4</LABEL_TEXT>
+       <LABEL_VISIBILITY>02</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EEBA7C347E6335E81CF</ID>
+       <NAME>FILE_UPLOAD</NAME>
+       <TYPE>FU</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>01</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <ID Final="5 ">FGL2_12F6543914EF1EEBA7D562F2E72587B7</ID>
+       <NAME>IMAGE</NAME>
+       <TYPE>IM</TYPE>
+       <EXPLANATION Transl="true"/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INPUT_PROMPT Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <SPECIAL_ACTIONS/>
+       <LABEL_TEXT Transl="true"/>
+       <LABEL_VISIBILITY>01</LABEL_VISIBILITY>
+       <LABEL_INSTANCE_STYLE/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <CTXT_MENU_ID/>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>
