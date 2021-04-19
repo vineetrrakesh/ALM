@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZHW_CL_ALM_FORM_FEEDER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ALM: Form Feeder for Header</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHW_CL_ALM_FORM_FEEDER</CLSNAME>
+     <CMPNAME>MS_ALM_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALM POWL Results</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

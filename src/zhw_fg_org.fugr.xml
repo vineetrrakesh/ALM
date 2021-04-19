@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Org Unit Utilities</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHW_FG_ORGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHW_FG_ORG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHW_FM_GET_ORGUNIT</FUNCNAME>
+     <SHORT_TEXT>Get Org-Units</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ORG_UNIT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>HROBJID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BEGDA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BEGDA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ENDDA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ENDDA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ORG_LIST</PARAMETER>
+       <TYP>ZHW_T_ORG_LIST</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ORG_UNIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Object ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BEGDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Start Date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ENDDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>End Date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ORG_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Org Unit List</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
